@@ -13,7 +13,7 @@ parameters:
   tripleo_ci_branch: master
   ci_changes: openstack/tripleo-quickstart:534360
   zuul_changes: openstack/tripleo-heat-templates:stable/pike:refs/changes/83/532783/1
-  trass_repo: https://github.com/sathlan/traas
+  traas_repository: https://github.com/slagle/traas
   zuul_branch: stable/pike
   overcloud_branch: stable/ocata
   undercloud_branch: stable/pike

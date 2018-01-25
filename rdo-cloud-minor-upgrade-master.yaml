@@ -11,4 +11,4 @@ parameters:
   ci_changes: openstack/tripleo-quickstart-extras:526408^openstack/tripleo-quickstart:526409
   tripleo_ci_remote: https://git.openstack.org/openstack-infra/tripleo-ci
   tripleo_ci_branch: master
-  trass_repo: https://github.com/sathlan/traas
+  traas_repository: https://github.com/slagle/traas
