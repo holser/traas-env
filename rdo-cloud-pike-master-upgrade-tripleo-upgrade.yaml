@@ -1,0 +1,17 @@
+parameters:
+  overcloud_flavor: m1.medium
+  overcloud_image: overcloud-full-pike
+  key_name: rdo-cloud
+  private_net: private-net
+  overcloud_node_count: 1
+  public_net:  38.145.32.0/22
+  undercloud_image: CentOS-7-x86_64-GenericCloud-1708
+  undercloud_flavor: m1.medium
+  toci_jobtype: multinode-1ctlr-featureset040
+  tripleo_ci_remote: https://git.openstack.org/openstack-infra/tripleo-ci
+  tripleo_ci_branch: master
+  traas_repository: https://github.com/slagle/traas
+  ci_changes: openstack/tripleo-quickstart-extras:526006^openstack/tripleo-quickstart:534306^openstack/tripleo-quickstart:534360^openstack/tripleo-quickstart:537833^openstack-infra/tripleo-ci:515643^openstack-infra/tripleo-ci:504939^openstack/tripleo-quickstart:504822
+  zuul_changes: openstack/python-tripleoclient:master:refs/changes/13/526213/11^openstack/tripleo-common:master:refs/changes/14/526214/4^openstack/tripleo-heat-templates:master:refs/changes/17/526017/2^openstack/tripleo-heat-templates:master:refs/changes/25/530225/3^openstack/tripleo-heat-templates:master:refs/changes/32/536932/1^openstack/tripleo-heat-templates:stable/pike:refs/changes/83/532783/1
+  overcloud_branch: stable/pike
+  undercloud_branch: master
