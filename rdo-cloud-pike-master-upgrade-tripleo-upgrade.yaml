@@ -11,7 +11,7 @@ parameters:
   tripleo_ci_remote: https://git.openstack.org/openstack-infra/tripleo-ci
   tripleo_ci_branch: master
   traas_repository: https://github.com/slagle/traas
-  ci_changes: openstack-infra/tripleo-ci:515643^openstack/tripleo-quickstart:513382^openstack/tripleo-quickstart:534306^openstack/tripleo-quickstart:537833
+  ci_changes: openstack-infra/tripleo-ci:515643^openstack/tripleo-quickstart:513382^openstack/tripleo-quickstart:534306
   zuul_changes: openstack/tripleo-heat-templates:master:refs/changes/49/539249/1^openstack/python-tripleoclient:master:refs/changes/13/526213/18^openstack/tripleo-common:master:refs/changes/14/526214/9^openstack/tripleo-heat-templates:master:refs/changes/17/526017/2
   overcloud_branch: stable/pike
   undercloud_branch: master
