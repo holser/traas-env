@@ -11,8 +11,8 @@ parameters:
   overcloud_node_count: 1
   tripleo_ci_remote: https://git.openstack.org/openstack-infra/tripleo-ci
   tripleo_ci_branch: master
-  ci_changes: openstack/tripleo-quickstart:534360
-  zuul_changes: openstack/tripleo-heat-templates:stable/pike:refs/changes/83/532783/1
+  #ci_changes:
+  zuul_changes: openstack/tripleo-heat-templates:stable/pike:refs/changes/83/532783/1^openstack/tripleo-heat-templates:master:refs/changes/32/536932/3
   traas_repository: https://github.com/slagle/traas
   zuul_branch: stable/pike
   overcloud_branch: stable/ocata
