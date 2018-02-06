@@ -12,7 +12,7 @@ parameters:
   # topics: ffu_upgrade, ffu/ci, link_tripleo_upgrade
   # .  ~/Src/sathlan/python-gerrit_patches/.tox/py27/bin/activate; gerrit-patches --topics ffu/ci --topics bug/1744036 --topics bug/1742924 \
   #       --topics link_tripleo_upgrade --extra '+NOT(change:539522+OR+change:541245+OR+change:539910)'  --render env_patch
-  ci_changes: openstack/tripleo-quickstart-extras:535299^openstack/tripleo-quickstart-extras:533167^openstack/tripleo-quickstart:540367^openstack-infra/tripleo-ci:539920^openstack-infra/tripleo-ci:515643^openstack/tripleo-quickstart:540072^openstack-infra/tripleo-ci:526000^openstack/tripleo-quickstart-extras:539572
+  ci_changes: openstack/tripleo-quickstart-extras:535299^openstack/tripleo-quickstart-extras:533167^openstack/tripleo-quickstart:540367^openstack-infra/tripleo-ci:539920^openstack-infra/tripleo-ci:515643^openstack/tripleo-quickstart:540072^openstack-infra/tripleo-ci:526000
 
   # . ~/Src/sathlan/python-gerrit_patches/.tox/py27/bin/activate; gerrit-patches --patches 522203 --patches 522547 --patches 499221 --patches 515429 --patches 514621 --patches 521543 --patches 521544 --patches 521545 --patches 522921 --patches 523399 --render env
   # and for ci: . ~/Src/sathlan/python-gerrit_patches/.tox/py27/bin/activate; gerrit-patches --patches 539522 --patches 541245 --topics traas-ci --render env
