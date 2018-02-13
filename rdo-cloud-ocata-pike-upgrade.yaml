@@ -8,7 +8,6 @@ parameters:
   undercloud_image: CentOS-7-x86_64-GenericCloud-1708
   undercloud_flavor: m1.medium
   toci_jobtype: multinode-1ctlr-featureset011
-  overcloud_node_count: 1
   tripleo_ci_remote: https://git.openstack.org/openstack-infra/tripleo-ci
   tripleo_ci_branch: master
   #ci_changes:
